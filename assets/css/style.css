@@ -1,0 +1,19 @@
+html {
+    font-size: 10px;
+    color: #212560;
+}
+
+#game-area{
+    font-size: 1.6rem;
+    padding-top: 3rem;
+}
+
+.imageArea,
+ .stats {
+    min-height: 30vh;
+}
+
+.imageArea {
+    background-color: linear-gradient(70deg, #859ede, #6965de);
+    border-radius: 0 0 3rem 3rem;
+}
