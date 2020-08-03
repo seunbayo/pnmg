@@ -50,3 +50,40 @@ button {
 button:nth-child(2) {
     border: 2px solid rgb(241, 152, 152);
 }
+
+
+.stats {
+    background-color: whitesmoke;
+    border: 2px solid #859ede;
+    border-radius: 3rem 3rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.space-y {
+    margin: 3rem 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 3rem;
+}
+ 
+
+@media all and (min-width: 600px) {
+    #game-area {
+        display: flex;
+    }
+    .imageArea,
+    stats {
+        min-height: 50vh;
+    }
+
+    .imageArea {
+        border-radius: 3rem;
+        transform: translate();
+    }
+}
