@@ -84,6 +84,14 @@ img {
 
     .imageArea {
         border-radius: 3rem;
-        transform: translate();
+        transform: translate(-3rem);
+        flex: 2;
+    }
+
+    .stats {
+        flex: 1;
+        border-radius: 3rem 0 0 3rem;
+        margin-left: 3rem;
+        padding-right: 3rem;
     }
 }
